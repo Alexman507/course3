@@ -7,14 +7,21 @@ Windows 10 x64, PyCharm 2021.3.3 (Community Edition), Python 3.10 x64
 2) К тегам ещё не прикасался
 
 Файлы:
+
 "main.py" - основное приложение для запуска 
-"config.py" -
-"logger.py" -
-"requirements.txt" -
-"run_pytest.sh" - 
+
+"config.py" - пути для доступа к файлам data и логгера
+
+"logger.py" - настройки логгера
+
+"requirements.txt" - версии пакетов
+
+"run_pytest.sh" - пробный файл для запуска юнит-тестов
 
 Папки:
+
 "bd_api" - вьюшки (блюпринты) для эндпоинтов и юнит-тесты
+
 "bp_posts" - вьюшки (блюпринты) для вкладок браузера, классы для:
 1) Словаря с постами
 2) Словаря с комментами
@@ -22,9 +29,13 @@ Windows 10 x64, PyCharm 2021.3.3 (Community Edition), Python 3.10 x64
 4) Работы с функционалом комментов
 
 "data" - таблицы json
+
 "exceptions" - класс для кастомной ошибки
+
 "logs" - логи fileHandler
+
 "static" - шаблон css и картинки
+
 "templates" - html шаблоны
 
 
